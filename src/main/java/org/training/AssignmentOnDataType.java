@@ -3,108 +3,108 @@ package org.training;
 public class AssignmentOnDataType {
     public static void main(String[] args) {
         //Object Car
-        String CarName = "HondaCity";
-        String CarColor = "Red";
-        int CarLength = 3;
-        long CarPrice = 120000;
-        boolean CarTurnsOn = true;
+        String carName = "HondaCity";
+        String carColor = "Red";
+        byte carLength = 3;
+        long carPrice = 120000L;
+        boolean carTurnsOn = true;
 
-        System.out.println(CarName);
-        System.out.println(CarColor);
-        System.out.println(CarLength);
-        System.out.println(CarPrice);
-        System.out.println(CarTurnsOn);
+        System.out.println(carName);
+        System.out.println(carColor);
+        System.out.println(carLength);
+        System.out.println(carPrice);
+        System.out.println(carTurnsOn);
 
         //Object Engine
-        String EngineName = "Mercedes";
-        String EngineColor = "Black";
-        int EngineLength = 24;
-        long EnginePrice = 120000;
-        boolean EngineTurnsOn = true;
+        String engineName = "Mercedes";
+        String engineColor = "Black";
+        byte engineLength = 24;
+        long enginePrice = 120000L;
+        boolean engineTurnsOn = true;
 
-        System.out.println(EngineName);
-        System.out.println(EngineColor);
-        System.out.println(EngineLength);
-        System.out.println(EnginePrice);
-        System.out.println(EngineTurnsOn);
+        System.out.println(engineName);
+        System.out.println(engineColor);
+        System.out.println(engineLength);
+        System.out.println(enginePrice);
+        System.out.println(engineTurnsOn);
 
         //Object Vessel
-        String VesselName = "Pegion";
-        String Vessecolor = "Silver";
-        int VesselDiameter = 24;
-        long VesselPrice = 50000;
-        boolean VesselIsUsable = true;
+        String vesselName = "Pegion";
+        String vessecolor = "Silver";
+        short vesselDiameter = 240;
+        long vesselPrice = 50000L;
+        boolean vesselIsUsable = true;
 
-        System.out.println(VesselName);
-        System.out.println(Vessecolor);
-        System.out.println(VesselDiameter);
-        System.out.println(VesselPrice);
-        System.out.println(VesselIsUsable);
+        System.out.println(vesselName);
+        System.out.println(vessecolor);
+        System.out.println(vesselDiameter);
+        System.out.println(vesselPrice);
+        System.out.println(vesselIsUsable);
 
         //Object Fridge
-        String FridgeName = "LG";
-        String FridgeColor = "White";
-        int FridgeHeight = 24;
-        long FridgePrice = 50000;
-        boolean FridgeIsUsable = true;
+        String fridgeName = "LG";
+        String fridgeColor = "White";
+        byte fridgeHeight = 24;
+        long fridgePrice = 50000L;
+        boolean fridgeIsUsable = true;
 
-        System.out.println(FridgeName);
-        System.out.println(FridgeColor);
-        System.out.println(FridgeHeight);
-        System.out.println(FridgePrice);
-        System.out.println(FridgeIsUsable);
+        System.out.println(fridgeName);
+        System.out.println(fridgeColor);
+        System.out.println(fridgeHeight);
+        System.out.println(fridgePrice);
+        System.out.println(fridgeIsUsable);
 
         //Object Bulb
-        String BulbName = "Philips";
-        String BulbColor = "Yellow";
-        String BulbHeight = "12mm";
-        int BulbPrice = 120;
-        boolean BulbIsUsable = false;
+        String bulbName = "Philips";
+        String bulbColor = "Yellow";
+        String bulbHeight = "12mm";
+        byte bulbPrice = 120;
+        boolean bulbIsUsable = false;
 
-        System.out.println(BulbName);
-        System.out.println(BulbColor);
-        System.out.println(BulbHeight);
-        System.out.println(BulbPrice);
-        System.out.println(BulbIsUsable);
+        System.out.println(bulbName);
+        System.out.println(bulbColor);
+        System.out.println(bulbHeight);
+        System.out.println(bulbPrice);
+        System.out.println(bulbIsUsable);
 
         //Object Vegetable
-        String VegitableName = "Beetroot";
-        String VegitableColor = "Red";
-        String VegitableWeight = "100gms";
-        int VegitablePrice = 120;
-        boolean VegitableIsUsable = true;
+        String vegitableName = "Beetroot";
+        String vegitableColor = "Red";
+        String vegitableWeight = "100gms";
+        byte vegitablePrice = 120;
+        boolean vegitableIsUsable = true;
 
-        System.out.println(VegitableName);
-        System.out.println(VegitableColor);
-        System.out.println(VegitableWeight);
-        System.out.println(VegitablePrice);
-        System.out.println(VegitableIsUsable);
+        System.out.println(vegitableName);
+        System.out.println(vegitableColor);
+        System.out.println(vegitableWeight);
+        System.out.println(vegitablePrice);
+        System.out.println(vegitableIsUsable);
 
         //Object Book
-        String BookName = "Vidya";
-        String BookColor = "Blue";
-        String BookWeight = "100Gms";
-        int BookPrice = 120;
-        boolean BookIsUsable = true;
+        String bookName = "Vidya";
+        String bookColor = "Blue";
+        String bookWeight = "100Gms";
+        int bookPrice = 120;
+        boolean bookIsUsable = true;
 
-        System.out.println(BookName);
-        System.out.println(BookColor);
-        System.out.println(BookWeight);
-        System.out.println(BookPrice);
-        System.out.println(BookIsUsable);
+        System.out.println(bookName);
+        System.out.println(bookColor);
+        System.out.println(bookWeight);
+        System.out.println(bookPrice);
+        System.out.println(bookIsUsable);
 
 //Object Goggle
-        String GoggleName = "Gucci";
-        String GoggleColor = "Black";
-        int GoggleWeight = 200;
-        int GogglePrice = 120;
-        boolean GoggleIsUsable = true;
+        String goggleName = "Gucci";
+        String goggleColor = "Black";
+        short goggleWeight = 200;
+        byte gogglePrice = 120;
+        boolean goggleIsUsable = true;
 
-        System.out.println(GoggleName);
-        System.out.println(GoggleColor);
-        System.out.println(GoggleWeight);
-        System.out.println(GogglePrice);
-        System.out.println(GoggleIsUsable);
+        System.out.println(goggleName);
+        System.out.println(goggleColor);
+        System.out.println(goggleWeight);
+        System.out.println(gogglePrice);
+        System.out.println(goggleIsUsable);
 
 
     }
