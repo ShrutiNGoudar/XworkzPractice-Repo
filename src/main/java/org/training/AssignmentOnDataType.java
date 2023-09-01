@@ -6,7 +6,7 @@ public class AssignmentOnDataType {
         String carName = "HondaCity";
         String carColor = "Red";
         byte carLength = 3;
-        long carPrice = 120000L;
+        long carPrice = 12000000L;
         boolean carTurnsOn = true;
 
         System.out.println(carName);
@@ -19,7 +19,7 @@ public class AssignmentOnDataType {
         String engineName = "Mercedes";
         String engineColor = "Black";
         byte engineLength = 24;
-        long enginePrice = 120000L;
+        long enginePrice = 3500000L;
         boolean engineTurnsOn = true;
 
         System.out.println(engineName);
@@ -32,7 +32,7 @@ public class AssignmentOnDataType {
         String vesselName = "Pegion";
         String vessecolor = "Silver";
         short vesselDiameter = 240;
-        long vesselPrice = 50000L;
+        int vesselPrice = 50000;
         boolean vesselIsUsable = true;
 
         System.out.println(vesselName);
@@ -45,7 +45,7 @@ public class AssignmentOnDataType {
         String fridgeName = "LG";
         String fridgeColor = "White";
         byte fridgeHeight = 24;
-        long fridgePrice = 50000L;
+        int fridgePrice = 50000;
         boolean fridgeIsUsable = true;
 
         System.out.println(fridgeName);
@@ -84,7 +84,7 @@ public class AssignmentOnDataType {
         String bookName = "Vidya";
         String bookColor = "Blue";
         String bookWeight = "100Gms";
-        int bookPrice = 120;
+        byte bookPrice = 120;
         boolean bookIsUsable = true;
 
         System.out.println(bookName);
